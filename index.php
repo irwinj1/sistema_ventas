@@ -1,10 +1,10 @@
 <?php
   require './Config/config.php'; 
   require './Controllers/ViewController.php'; 
-
+ 
   $plantilla = new ViewController(); 
+  $plantilla->getPlantillaController();
   
-  $plantilla->getViewController();
 
   // $controller = '';
   // $method = 'index';
